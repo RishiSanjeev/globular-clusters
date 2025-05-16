@@ -55,7 +55,7 @@ selection_sort(appVMag,globularClusters)
 
 orderedList = []
 
-limitingMag = limitingMagGenerator(17.5,15,1,506.7,100,0.4,1,720)
+limitingMag = limitingMagGenerator(17.5,15,1,506.7,100,0.4,1,240)
 
 for k in range(len(globularClusters)):
     if appVMag[k] < limitingMag:
